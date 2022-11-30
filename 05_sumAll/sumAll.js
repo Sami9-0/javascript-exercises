@@ -3,7 +3,7 @@ const sumAll = function(min, max) {
 
     if (min > max)
     {
-        let holder = min;
+        const holder = min;
         min = max;
         max = holder;
     }
